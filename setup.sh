@@ -30,16 +30,14 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "upgradeCards": true,
+  "cardsPrices": 500000,
+  "upgradeBoosts": true,
+  "delayEachAccount": [1, 81],
+  "doTasks": true
 }
 EOL
 }
@@ -115,7 +113,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            cd "bunny blizt" && node bot
+            cd "bunny blizt" && node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
