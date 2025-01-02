@@ -4,5 +4,6 @@
   "country_time": "en-US",
   "upgradeCards": true,
   "cardsPrices": 500000,
-  "upgradeBoosts": true
+  "upgradeBoosts": true,
+  "delayEachAccount": [1, 81],
 }
