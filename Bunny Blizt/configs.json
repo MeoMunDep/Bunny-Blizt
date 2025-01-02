@@ -6,4 +6,5 @@
   "cardsPrices": 500000,
   "upgradeBoosts": true,
   "delayEachAccount": [1, 81],
+  "doTasks": true
 }
